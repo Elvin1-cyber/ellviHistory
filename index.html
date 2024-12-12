@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="ru"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;История России: Интерактивный путь к ЕГЭ&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #e8f3ff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-image: url('https://example.com/bg-map.png'); /* Измените URL на подходящий фон карты */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-size: cover;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-attachment: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #4a76a8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #3b5998;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav a {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav a:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #4a76a8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>main {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.module {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.module h2 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 0 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #3b5998;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #4a76a8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.7rem 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #3b5998;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.quiz {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.quiz ul {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>list-style-type: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.quiz li {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f0f8ff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0.5rem 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #4a76a8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: background-color 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.quiz li:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #d6eaff;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.task {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;История России: Интерактивный путь к ЕГЭ&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#ancient"&gt;Древняя Русь&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#moscow"&gt;Московское княжество&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#modern"&gt;Современная Россия&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="ancient" class="module"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Древняя Русь&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Пройдите задания, чтобы узнать больше о становлении древнерусского государства!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button onclick="startQuiz('ancient')"&gt;Начать&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="quiz" id="quiz-ancient"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p id="question-ancient"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;ul id="options-ancient"&gt;&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="nextQuestion('ancient')"&gt;Следующий вопрос&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="moscow" class="module"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Московское княжество&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Узнайте о подъеме Москвы и централизованном государстве!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button onclick="startQuiz('moscow')"&gt;Начать&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="quiz" id="quiz-moscow"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p id="question-moscow"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;ul id="options-moscow"&gt;&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="nextQuestion('moscow')"&gt;Следующий вопрос&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="modern" class="module"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Современная Россия&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Рассмотрите ключевые события XX-XXI веков!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button onclick="startQuiz('modern')"&gt;Начать&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="quiz" id="quiz-modern"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p id="question-modern"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;ul id="options-modern"&gt;&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="nextQuestion('modern')"&gt;Следующий вопрос&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const questions = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>ancient: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>question: "В каком году произошло крещение Руси?",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>options: ["988", "862", "1015", "945"],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>answer: 0</p>
+<p class="p1"><span class="Apple-converted-space">                </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>question: "Какой князь совершил поход на Царьград в 907 году?",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>options: ["Олег", "Игорь", "Святослав", "Владимир"],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>answer: 0</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// Добавьте еще 98 вопросов</p>
+<p class="p1"><span class="Apple-converted-space">            </span>],</p>
+<p class="p1"><span class="Apple-converted-space">            </span>moscow: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>question: "Кто был первым московским князем?",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>options: ["Даниил Александрович", "Юрий Долгорукий", "Иван Калита", "Дмитрий Донской"],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>answer: 0</p>
+<p class="p1"><span class="Apple-converted-space">                </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>question: "В каком году произошла Куликовская битва?",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>options: ["1380", "1240", "1327", "1480"],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>answer: 0</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// Добавьте еще 98 вопросов</p>
+<p class="p1"><span class="Apple-converted-space">            </span>],</p>
+<p class="p1"><span class="Apple-converted-space">            </span>modern: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>question: "Кто был первым президентом Российской Федерации?",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>options: ["Борис Ельцин", "Владимир Путин", "Михаил Горбачёв", "Дмитрий Медведев"],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>answer: 0</p>
+<p class="p1"><span class="Apple-converted-space">                </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>question: "В каком году произошёл распад СССР?",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>options: ["1991", "1985", "2000", "1993"],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>answer: 0</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// Добавьте еще 98 вопросов</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>let currentQuestionIndex = { ancient: 0, moscow: 0, modern: 0 };</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function startQuiz(module) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById(`quiz-${module}`).style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>loadQuestion(module);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function loadQuestion(module) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const quiz = questions[module];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const questionElement = document.getElementById(`question-${module}`);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const optionsElement = document.getElementById(`options-${module}`);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const currentQuestion = quiz[currentQuestionIndex[module]];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>questionElement.textContent = currentQuestion.question;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>optionsElement.innerHTML = '';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>currentQuestion.options.forEach((option, index) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const li = document.createElement('li');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>li.textContent = option;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>li.onclick = () =&gt; checkAnswer(module, index);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>optionsElement.appendChild(li);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function checkAnswer(module, selected) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const correct = questions[module][currentQuestionIndex[module]].answer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (selected === correct) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>alert('Верно!');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>alert('Неправильно. Попробуйте ещё раз.</p>
+</body>
+</html>
